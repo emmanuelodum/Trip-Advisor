@@ -19,7 +19,7 @@ const Header = () => {
                 <div className={classes.searchIcon}>
                   <SearchIcon />
               </div>
-              <InputeBase />
+              <InputeBase  placeholder="search..." classes{{}} />
               </div>
             </Autocomplete>
           </Box>
