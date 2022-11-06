@@ -19,7 +19,7 @@ const Header = () => {
                 <div className={classes.searchIcon}>
                   <SearchIcon />
               </div>
-              <InputeBase  placeholder="search..." classes{{}} />
+              <InputeBase  placeholder="search..." classes={{ root: classes.InputeRoot, input: classes.InputeRoot}} />
               </div>
             </Autocomplete>
           </Box>
