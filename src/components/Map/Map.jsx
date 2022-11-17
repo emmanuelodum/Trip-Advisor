@@ -8,7 +8,7 @@ import useStyles from './styles';
 
 const Map = () => {
   return (
-    <div>Map</div>
+    <h1>Map</h1>
   );
 }
 
