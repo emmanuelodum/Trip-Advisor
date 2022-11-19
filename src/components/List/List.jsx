@@ -4,8 +4,10 @@ import { CircularProgress, Grid, Typograghy, InputLabel, MenuItem, FormControl, 
 import useStyles from './styles'
 
 const List = () => {
+
+  const classes = useStyles();
   return (
-    <div>List</div>
+    <div className={classes.container}></div>
   )
 }
 
