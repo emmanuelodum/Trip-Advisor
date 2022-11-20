@@ -7,7 +7,9 @@ const List = () => {
 
   const classes = useStyles();
   return (
-    <div className={classes.container}></div>
+    <div className={classes.container}>
+      <Typograghy variant='h4'>Restaurants, Hotel & Attraction around you</Typograghy>
+    </div>
   )
 }
 
