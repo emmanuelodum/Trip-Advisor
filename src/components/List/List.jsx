@@ -9,6 +9,7 @@ const List = () => {
   return (
     <div className={classes.container}>
       <Typograghy variant='h4'>Restaurants, Hotel & Attraction around you</Typograghy>
+      <FormControl className={classes.formControl}></FormControl>
     </div>
   )
 }
