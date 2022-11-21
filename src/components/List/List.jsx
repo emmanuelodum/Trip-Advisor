@@ -19,6 +19,14 @@ const List = () => {
           <MenuItem value="attractions">Attractions</MenuItem>
         </Select>
       </FormControl>
+      <FormControl className={classes.formControl}>
+        <InputLabel>Type</InputLabel>
+        <Select value={type} onChange={(e) => setType(e.target.value)}>
+          <MenuItem value="restuarants">Restaurants</MenuItem>
+          <MenuItem value="hotels">Hotels</MenuItem>
+          <MenuItem value="attractions">Attractions</MenuItem>
+        </Select>
+      </FormControl>
     </div>
   )
 }
