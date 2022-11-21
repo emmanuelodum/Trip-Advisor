@@ -35,7 +35,7 @@ const List = () => {
           <MenuItem value={5}>Above 4.5</MenuItem>
         </Select>
       </FormControl>
-      <Grid></Grid>
+      <Grid>value</Grid>
     </div>
   )
 }
