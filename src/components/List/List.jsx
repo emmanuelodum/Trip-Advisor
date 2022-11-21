@@ -11,6 +11,11 @@ const List = () => {
       <Typograghy variant='h4'>Restaurants, Hotel & Attraction around you</Typograghy>
       <FormControl className={classes.formControl}>
         <InputLabel>Type</InputLabel>
+        <Select value={''} onChange={''}>
+          <MenuItem value="restuarants">Restaurants</MenuItem>
+          <MenuItem value="hotels">Hotels</MenuItem>
+          <MenuItem value="attractions">Attractions</MenuItem>
+        </Select>
       </FormControl>
     </div>
   )
