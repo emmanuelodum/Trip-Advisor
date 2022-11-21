@@ -9,6 +9,12 @@ const List = () => {
   const [type, setType] = useState('restaurants');
   const [rating, setRating] = useState('');
 
+  const places = [
+    { name: 'Cool Places' },
+    { name: 'Best Beer' },
+    { name: 'Best Steak' },
+  ];
+
   return (
     <div className={classes.container}>
       <Typograghy variant='h4'>Restaurants, Hotel & Attraction around you</Typograghy>
