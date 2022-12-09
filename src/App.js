@@ -10,9 +10,9 @@ import Map from './components/Map/Map';
 const App = () => {
 
     useEffect(() => {
-        
+        getPlacesData();
     }, []);
-    
+
   return (
       <>
           <CssBaseline />
