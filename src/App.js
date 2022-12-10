@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CssBaseline, Grid } from '@material-ui/core';
 
 import { getPlacesData } from './api';
@@ -8,6 +8,7 @@ import Map from './components/Map/Map';
 
 
 const App = () => {
+    const [places, setPlaces] = useState([]);
 
     useEffect(() => {
         getPlacesData();
